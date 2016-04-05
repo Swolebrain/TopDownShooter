@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="7.0+" 
+      codebase="http://www.swolebrain.com/java/topdownshooter" 
+      href="topdownshooter.jnlp">
+    <information>
+        <title>Top Down Shooter</title>
+        <vendor>Developed by SwoleBrain</vendor>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.7+" java-vm-args="-esa -Xnoclassgc"/>
+        <jar href="TopDownShooter.jar"/>
+    </resources>
+    <application-desc main-class="Game">
+    </application-desc>
+</jnlp>
